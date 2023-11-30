@@ -15,6 +15,7 @@ const Projets = () => {
                  image={projet.image}
                  description={projet.description}
                  id={projet.id}
+                 lien={projet.lien}
                 />
             ))}
             </div>

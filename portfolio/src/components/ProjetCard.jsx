@@ -3,7 +3,7 @@ import { useState } from "react";
 import ProjetFaceOne from "./ProjetFaceOne";
 import ProjetFaceTwo from "./ProjetFaceTwo";
 
-function ProjetCard ( { image, name, description, id }) {
+function ProjetCard ( { image, name, description, id, lien }) {
 
     const [isFlipped, setIsFlipped] = useState(false); 
 
@@ -16,7 +16,7 @@ function ProjetCard ( { image, name, description, id }) {
 <ReactCardFlip isFlipped={isFlipped}
         flipDirection="horizontal">
     <ProjetFaceOne id={id} image={image} name={name} handleFlip={handleFlip}/> 
-    <ProjetFaceTwo name={name} description={description} handleFlip={handleFlip}/>
+    <ProjetFaceTwo name={name} description={description} lien={lien} handleFlip={handleFlip}/>
 </ReactCardFlip>
 </div>
     )
