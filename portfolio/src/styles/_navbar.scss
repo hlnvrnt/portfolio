@@ -1,0 +1,49 @@
+.navbar{
+    width:100vw;
+    height: 10vh;
+    display:flex;
+
+    .onglets{
+        display: flex;
+        align-items: center;
+        gap:40px;
+        width:100%;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    a{
+        font-weight:600;
+        text-decoration:none;
+        font-size: 23px;
+        transition: 200ms;
+        color:white;
+    }
+
+    .active{
+        color: #B06161;
+    }
+
+    a:hover{
+        color: #B06161;
+    }
+    .liens-reseaux{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:20px;
+        width:20vw;
+
+        img{
+            height: 4vh;
+            width: 2vw;
+            cursor: pointer;
+        }
+        img:hover {
+            transform: scale(1.2);
+          }
+
+        
+
+    }
+}
