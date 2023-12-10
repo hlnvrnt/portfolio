@@ -27,3 +27,17 @@
         color:rgba(255, 255, 255, 0.795);
     }
 }
+
+@media screen and (max-width: 769px) {
+    .footer{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .footer{
+        .reseaux{
+            width:20%;
+            gap:10px;
+    }
+}}

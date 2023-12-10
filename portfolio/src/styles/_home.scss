@@ -43,7 +43,7 @@
         .image{
             img{
                 height:62vh;
-                width:48vh;
+                width:45vh;
                 border-radius: 10px;;
             }
            
@@ -116,7 +116,7 @@
 
         .projets{
             display: flex;
-            width:60%;
+            width:100%;
             justify-content: space-around;
             margin:0 auto;
             gap:50px;
@@ -214,3 +214,193 @@
 
 }
 
+@media screen and (max-width: 1025px) {
+
+  .home {
+    h1{
+      font-size: 30px;
+    }
+    .text{
+      font-size: 22px;
+    }
+    h2{
+      font-size: 20px;
+    }
+  
+    .etudes{
+      p{
+        font-size:18px;
+      }
+    }
+
+    .skills{
+      p{
+        font-size: 15px;
+      }
+    }
+
+  
+    .projets-container{
+      .link-projet{
+        width:20vw;
+        h1{
+          font-size: 30px;
+        }
+      }
+      
+    }
+  }
+  
+  }
+  
+  @media screen and (max-width: 769px) {
+
+    .home {
+      h1{
+        font-size: 30px;
+      }
+      .description{
+        .text{
+          font-size: 15px;
+        }
+        h2{
+          font-size: 20px;
+        }
+
+        .etudes{
+          p{
+            font-size:15px;
+          }
+        }
+      }
+      
+
+      .skills{
+        width:92vw;
+        
+        p{
+          font-size: 13px;
+        }
+
+        h2{
+          font-size: 18px;
+        }
+
+        img{
+          height:5vh;
+        }
+      }
+  
+    
+      .projets-container{
+        .link-projet{
+          width:20vw;
+          height:6vh;
+          h1{
+            font-size: 22px;
+          }
+        }
+        
+      }
+
+      .contact{
+        height:13vh;
+
+        button{
+          font-size : 15px;
+          height: 5vh;
+        }
+      }
+      h2{
+        font-size:18px;
+      }
+      
+    }
+    
+    }
+    
+ 
+    @media screen and (max-width: 426px) {
+
+      .home {
+        h1{
+          font-size: 25px;
+        }
+        .description{
+          margin:0 auto;
+          justify-content: center;
+          .text{
+            gap:15px;
+            padding-bottom: 10px;
+            .techno{
+              width:100vw;
+
+            }
+          
+            h2{
+              font-size: 18px;
+            }
+          }
+
+          .image{
+            img{
+              display: none;
+            }
+          }
+  
+          .etudes{
+            p{
+              font-size:12px;
+            }
+          }
+        }
+        
+  
+        .skills{
+          width:100vw;
+          height:25vh;
+          gap:10px;
+          p{
+            font-size: 10px;
+          }
+  
+          h2{
+            font-size: 15px;
+          }
+  
+          img{
+            height:4vh;
+            width:7vw;
+            margin-bottom:5px;
+          }
+        }
+    
+      
+        .projets-container{
+          .link-projet{
+            width:30vw;
+            height:6vh;
+            h1{
+              font-size: 18px;
+            }
+          }
+          
+        }
+  
+        .contact{
+          height:12vh;
+          width:95vw;
+  
+          button{
+            font-size : 12px;
+            height: 5vh;
+          }
+        }
+        h2{
+          font-size:15px;
+        }
+        
+      }
+      
+      }
+         

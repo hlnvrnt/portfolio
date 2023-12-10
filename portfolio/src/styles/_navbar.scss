@@ -47,3 +47,34 @@
 
     }
 }
+
+@media screen and (max-width: 1025px) {
+    .navbar{
+        .liens-reseaux{
+            img{
+               height:3vh;
+               width:3vw;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 426px) {
+    .navbar{
+        .onglets{
+            a{
+                font-size: 20px;
+            }
+        }
+        .liens-reseaux{
+            gap:10px;
+            width:30vw;
+            img{
+               height:3vh;
+               width:5vw;
+            }
+        }
+    }
+     
+}
